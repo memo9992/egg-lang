@@ -21,7 +21,7 @@ function remove_egg(s) {
       temp[index]   = temp[index].replaceAll("egg", "");
     }
   }
-  return temp;
+  return temp.join(" ");
 }
 function clearText() {
   get("input").value = "";
