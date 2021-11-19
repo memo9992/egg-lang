@@ -17,9 +17,6 @@
       .extra-margin {
         margin-bottom: 2%;
       }
-      .custom-width {
-        width: 25%;
-      }
       .mid-text {
         text-align: center;
         font-size: 1rem;
@@ -34,7 +31,7 @@
     <div class="container-fluid extra-margin">
       <h1 class="display-5 text-center">Make your Text E G G</h1>
     </div>
-    <div class="container-sm extra-margin custom-width">
+    <div class="container-sm extra-margin">
       <select id="options"
         class="form-select form-select-xl mid-text"
         aria-label=".form-select-xl"
@@ -43,13 +40,13 @@
         <option value="2">remove E G G</option>
       </select>
     </div>
-    <div class="container-sm extra-margin custom-width">
+    <div class="container-sm extra-margin">
       <form>
         <textarea
           class="form-control extra-margin"
           id="input"
           rows="2"
-        ></textarea>
+          style="text-align: center; font-size: 1.5rem;"></textarea>
         <div class="position-relative">
           <div class="position-absolute top-0 start-50 translate-middle-x">
             <button
@@ -71,13 +68,7 @@
           </div>
         </div>
       </form>
-    </div>
-    <div class="container-sm extra-margin custom-width" style="margin-top: 8%;">
-      <div class="position-relative">
-        <div class="position-absolute top-0 start-50 translate-middle">
-          <p class="text-wrap" style="font-weight: 550; font-size: 1.5rem;text-align: justify;" id="output"></p>
-        </div>
-      </div>
-    </div>
+    </div>  
+
   </body>
 </html>

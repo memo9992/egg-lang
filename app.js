@@ -24,19 +24,20 @@ function remove_egg(s) {
   return temp;
 }
 function clearText() {
-  get("output").innerText = "";
+  get("input").value = "";
 }
 
 function make_egg() {
   
   let option = get("options").value;
+  let input = get("input").value
   clearText();
   if (option == "1")
-    get("output").innerText = add_egg(
-      get("input").value
+    get("input").value = add_egg(
+      input
     );
   else if (option == "2")
-    get("output").innerText = remove_egg(
-        get("input").value
+    get("input").value = remove_egg(
+        input
     );
 }
